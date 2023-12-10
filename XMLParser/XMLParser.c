@@ -47,6 +47,9 @@ int main() {
         // Free the Resources
         xmlFreeDoc(doc);
         xmlCleanupParser();
+
+        //Test Print Statement
+        printf("Hello I am a change to the source code");
         
         return 0;
 }
